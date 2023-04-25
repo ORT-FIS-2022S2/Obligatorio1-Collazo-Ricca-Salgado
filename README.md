@@ -80,7 +80,7 @@ Se creo un repositorio en GitHub y luego cada integrante del equipo lo clono, ut
 
 ## VERSIONADO
 
-### Aplicar buenas practicas de versionado
+### Aplicar buenas prácticas de versionado
 
 Aplicar buenas prácticas de versionado en el desarrollo de software implica mantener un control sistemático y ordenado de los cambios realizados en el código fuente y en otros elementos del proyecto a lo largo del tiempo. Algunas implicaciones de esto son:
 
@@ -96,6 +96,64 @@ En resumen, aplicar buenas prácticas de versionado en el desarrollo de software
 
 ### Uso de ramas separadas de 'main'
 
+Utilizamos dos ramas principales, develop y main. La rama main se utiliza unicamente para pasar a producción, y la rama develop se utiliza para el desarrollo del proyecto. Cada vez que se finaliza una funcionalidad, que el equipo aprueba, se hace un merge de la rama develop a la rama main, y se sube a producción.
+
 ### Resumen de commits y evolución del proyecto 
+Puesta en comun
+
+## ELICITACION
+
+### Evidencias de actividades de investigación
+Mario
+### Referencias a fuentes de información
+Mario
+### Caracteriazción de usuarios: User Personas
+Mario
+### Modelo conceptual del problema
+Mario
+
+## ESPECIFICACION
+
+### Definición de requerimientos funcionales y no funcionales
+Laura
+
+&nbsp;
+**Requerimientos Funcionales**
+
+
+&nbsp;
+*  **RF1:** El sistema debe permitir el registro de usuarios.
+
+**Requerimientos no funcionales**
+
+
+&nbsp;
+*  **RNF1:** El sistema debe ser desarrollado en Java.
+
+
+### User stories/ Use cases detallados
+Geston
+
+### Bocetos de IU
+Laura
+
+## VALIDACION Y VERIFICACION
+
+### Verificar la especificación
+Gaston
+
+### Validar la solución con personas no involucradas en el proyecto
+Gaston
+
+## REFLEXION
+
+### Detalle del trabajo individual
+Puesta en comun
+
+### Técnicas aplicadas y aprendizajes
+Puesta en comun
+
+
+
 
 
