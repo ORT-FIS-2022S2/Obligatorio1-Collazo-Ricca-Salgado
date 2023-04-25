@@ -17,6 +17,9 @@ Se creo un repositorio en GitHub y luego cada integrante del equipo lo clono, ut
 ### Comandos Git ejecutados desde el terminal y desde el IDE
 
 * git clone [URL del repo de GitHub]
+
+
+&nbsp;
   Inicializa un directorio existente como un repositorio Git local.
 
 * git status
