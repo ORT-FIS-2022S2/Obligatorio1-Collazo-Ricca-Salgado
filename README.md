@@ -102,7 +102,7 @@ Puesta en comun
 ## ELICITACION
 
 ### Evidencias de actividades de investigación
-#### Entrevistas ####
+#### Entrevistas 
 Se realizaron dos entrevistas:
 
 
@@ -129,6 +129,11 @@ Por otro lado, se aprendio que la Dirección General de Educación Inicial y Pri
 &nbsp;
 Ambos padres encontraron difícil la comunicación con los centros escolares, ya que, a pesar de elaborarse la comida en los centros educativos, la planificación es llevada a cabo para todas las escuelas por un equipo de nutricionistas contratado por la DGEIP
 
+#### Observaciones
+MArio
+
+#### Lluvia de ideas 
+MArio
 
 ### Referencias a fuentes de información
 Mario
@@ -150,8 +155,6 @@ Laura
 &nbsp;
 **Requerimientos no funcionales**
 
-
-&nbsp;
 *  **RNF1:** El sistema debe ser desarrollado en Java.
 
 
