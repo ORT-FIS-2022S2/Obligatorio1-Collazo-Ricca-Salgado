@@ -146,11 +146,11 @@ Mario
 
 ### Definición de requerimientos funcionales y no funcionales
 
-**Actores**
+#### Actores
 * Padre/Madre
 * Encargado del comedor
 
-**Requerimientos Funcionales**
+#### Requerimientos Funcionales
 
 *  **RF1: Registro de comensales**
 
@@ -264,7 +264,8 @@ Mario
 
 
 &nbsp;
-**Requerimientos no funcionales**
+
+#### Requerimientos no funcionales
 
 * **RNF1: Aplicación responsive**
   
@@ -331,7 +332,8 @@ Mario
 Geston
 
 ### Bocetos de IU
-image.png
+![U1_1](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_1.png)
+![U1_2](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_2.png)
 
 image.png
 
