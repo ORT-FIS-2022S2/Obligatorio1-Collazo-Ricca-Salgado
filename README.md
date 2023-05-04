@@ -145,17 +145,148 @@ Mario
 ## ESPECIFICACION
 
 ### Definición de requerimientos funcionales y no funcionales
-Laura
+
+**Actores**
+* Padre/Madre
+* Encargado del comedor
 
 **Requerimientos Funcionales**
 
-*  **RF1:** El sistema debe permitir el registro de usuarios.
+*  **RF1: Registro de comensales**
+**Actores:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir a los padres registrar los comensales (hijos) que quiere gestionar con la aplicación.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF2: Administrar comensales**
+**Actores:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir a los padres ademas de registrar los comensales, eliminar los que ya no quiera gestionar con la aplicación.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF3: Ver el Menú Semanal**
+**Actores:** Padre, Encargado del Comedor
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir a los padres y encargado del comedor ver los platos del menú para toda la semana con el detalle de que incluye cada uno.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF4: Ingresar una orden por comensal**
+**Actores:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir a los padres cargar una orden en la cual pueden elegir para cada comensal, que dias de la semana quieren pedir el menú.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF5: Confirmación de pedido**
+**Actores:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir al padre ver en una pantalla el la orden que ingreso y confirmar la misma de ser correcta. De no ser correcta puede volver para atrás e ingresar la orden nuevamente.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF6: Historial de pedido**
+**Actores:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir al padre ver para un comensal y mes indicado, todos los pedidos realizados.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RF7: Formulario de contacto**
+**Actor:** Padre
+
+
+&nbsp;
+**Descripción:** El sistema debe permitir que los usuarios tipo Padre se comuniquen con el responsable del menu escolar por parte del colegio mediante un formulario donde deben llenar casillas marcando nombre y apellido del niño, correo electrónico y el mensaje.
+
+
+&nbsp;
+**Prioridad:** Alta
 
 
 &nbsp;
 **Requerimientos no funcionales**
 
-*  **RNF1:** El sistema debe ser desarrollado en Java.
+* **RNF1: Aplicación responsive**
+**Descripción:** El sistema debe ser accesible y adaptable a dispositivos móviles, tablets y computadoras.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RNF2: Persistencia**
+**Descripción:** El sistema debe poder persistir la información de usuario, comensales y pedidos ingresados.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RNF3: Tipografía**
+**Descripción:** El sistema debe utilizar la tipografía Gothic A1.
+
+
+&nbsp;
+**Prioridad:** Alta
+
+
+&nbsp;
+* **RNF4: Paleta de colores**
+**Descripción:** El sistema debe respetar, en lineas generales, la paleta de colores seleccionada: #E13A3A, #FFFFFF, #000000, #868686 y #029408.
+
+
+&nbsp;
+**Prioridad:** Media
+
+
+&nbsp;
+* **RNF5: Google Style Guide**
+**Descripción:** El sistema debe cumplir con las buenas practicas de etilos indicada por Google Style Guide para sus diferentes tecnologías.
+
+
+&nbsp;
+**Prioridad:** Media
 
 
 &nbsp;
@@ -164,7 +295,9 @@ Laura
 Geston
 
 ### Bocetos de IU
-Laura
+image.png
+
+image.png
 
 ## VALIDACION Y VERIFICACION
 
