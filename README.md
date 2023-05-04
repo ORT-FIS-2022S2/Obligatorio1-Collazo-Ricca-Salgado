@@ -153,6 +153,9 @@ Mario
 **Requerimientos Funcionales**
 
 *  **RF1: Registro de comensales**
+
+
+&nbsp;
 **Actores:** Padre
 
 
@@ -166,6 +169,9 @@ Mario
 
 &nbsp;
 * **RF2: Administrar comensales**
+
+
+&nbsp;
 **Actores:** Padre
 
 
@@ -179,6 +185,9 @@ Mario
 
 &nbsp;
 * **RF3: Ver el Menú Semanal**
+
+
+&nbsp;
 **Actores:** Padre, Encargado del Comedor
 
 
@@ -192,6 +201,9 @@ Mario
 
 &nbsp;
 * **RF4: Ingresar una orden por comensal**
+
+
+&nbsp;
 **Actores:** Padre
 
 
@@ -205,6 +217,9 @@ Mario
 
 &nbsp;
 * **RF5: Confirmación de pedido**
+
+
+&nbsp;
 **Actores:** Padre
 
 
@@ -218,6 +233,9 @@ Mario
 
 &nbsp;
 * **RF6: Historial de pedido**
+
+
+&nbsp;
 **Actores:** Padre
 
 
@@ -231,6 +249,9 @@ Mario
 
 &nbsp;
 * **RF7: Formulario de contacto**
+
+
+&nbsp;
 **Actor:** Padre
 
 
@@ -246,6 +267,9 @@ Mario
 **Requerimientos no funcionales**
 
 * **RNF1: Aplicación responsive**
+  
+
+&nbsp;
 **Descripción:** El sistema debe ser accesible y adaptable a dispositivos móviles, tablets y computadoras.
 
 
@@ -255,6 +279,9 @@ Mario
 
 &nbsp;
 * **RNF2: Persistencia**
+  
+
+&nbsp;
 **Descripción:** El sistema debe poder persistir la información de usuario, comensales y pedidos ingresados.
 
 
@@ -264,6 +291,9 @@ Mario
 
 &nbsp;
 * **RNF3: Tipografía**
+  
+
+&nbsp;
 **Descripción:** El sistema debe utilizar la tipografía Gothic A1.
 
 
@@ -273,6 +303,9 @@ Mario
 
 &nbsp;
 * **RNF4: Paleta de colores**
+
+
+&nbsp;
 **Descripción:** El sistema debe respetar, en lineas generales, la paleta de colores seleccionada: #E13A3A, #FFFFFF, #000000, #868686 y #029408.
 
 
@@ -282,6 +315,9 @@ Mario
 
 &nbsp;
 * **RNF5: Google Style Guide**
+
+
+&nbsp;
 **Descripción:** El sistema debe cumplir con las buenas practicas de etilos indicada por Google Style Guide para sus diferentes tecnologías.
 
 
