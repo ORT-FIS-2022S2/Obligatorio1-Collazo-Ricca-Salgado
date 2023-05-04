@@ -166,8 +166,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF2: Administrar comensales**
 
 
@@ -182,8 +180,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF3: Ver el Menú Semanal**
 
 
@@ -198,8 +194,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF4: Ingresar una orden por comensal**
 
 
@@ -214,8 +208,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF5: Confirmación de pedido**
 
 
@@ -230,8 +222,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF6: Historial de pedido**
 
 
@@ -246,8 +236,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RF7: Formulario de contacto**
 
 
@@ -277,8 +265,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RNF2: Persistencia**
   
 
@@ -289,8 +275,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RNF3: Tipografía**
   
 
@@ -301,8 +285,6 @@ Mario
 &nbsp;
 **Prioridad:** Alta
 
-
-&nbsp;
 * **RNF4: Paleta de colores**
 
 
@@ -313,8 +295,6 @@ Mario
 &nbsp;
 **Prioridad:** Media
 
-
-&nbsp;
 * **RNF5: Google Style Guide**
 
 
@@ -334,6 +314,7 @@ Geston
 ### Bocetos de IU
 ![U1_1](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_1.png)
 ![U1_2](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_2.png)
+![U1_3](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_3.png)
 
 image.png
 
