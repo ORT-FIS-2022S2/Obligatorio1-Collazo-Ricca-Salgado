@@ -104,14 +104,28 @@ Puesta en comun
 ### Evidencias de actividades de investigación
 #### Entrevistas ####
 Se realizaron dos entrevistas:
+
+
+&nbsp;
 Entrevista 1: se realizo a una madre de tres niños, de los cuales solo uno sigue siendo estudiante de primaria.
+
+
+&nbsp;
 Entrevista 2: padre de dos niños, ambos niños practican el judaísmo y uno tiene celiaquía.
+
+
 &nbsp;
 Ambos padres envían a sus hijos a escuelas públicas de turno completo donde reciben un almuerzo.
+
+
 &nbsp;
 La primera conclusión a la que se llego es que el sistema de comedores en escuelas públicas funciona bien en su objetivo de alimentar a los niños. De la primera entrevista se vio que en la escuela pública muchas veces el menú semanal no es comunicado con antelación lo cual genera cierta dificultad al preparar las compras en la casa para evitar que sus hijos comieran en sus casas de noche lo mismo que en la escuela.
+
+
 &nbsp;
 Por otro lado, se aprendio que la Dirección General de Educación Inicial y Primeria (DGEIP) no puede, por un tema de escala y costos, garantizar opciones para todas las restricciones dietarías, en particular condiciones de carácter filosófico sean religiosas o éticas. En estos casos se le brinda al niño alimentos adecuados dentro de lo posible y se les pide a los padres en esos casos que complementen la alimentación ya sea llevando sus propias viandas a la escuela para cubrir total o parcialmente el almuerzo dependiendo del caso.
+
+
 &nbsp;
 Ambos padres encontraron difícil la comunicación con los centros escolares, ya que, a pesar de elaborarse la comida en los centros educativos, la planificación es llevada a cabo para todas las escuelas por un equipo de nutricionistas contratado por la DGEIP
 
