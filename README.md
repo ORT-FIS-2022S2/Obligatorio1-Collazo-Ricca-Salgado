@@ -316,7 +316,6 @@ Geston
 ![U1_2](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_2.png)
 ![U1_3](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_3.png)
 
-image.png
 
 ## VALIDACION Y VERIFICACION
 
