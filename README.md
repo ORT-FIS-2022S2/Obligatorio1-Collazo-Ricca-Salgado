@@ -308,7 +308,6 @@ Mario
 
 &nbsp;
 ### User stories
-
 #### User Stories 1
 
 
@@ -410,9 +409,6 @@ Mario
 
 &nbsp;
 ### Casos de Uso Detallados
-
-
-&nbsp;
 #### Caso de uso 1
 
 
@@ -433,19 +429,105 @@ Mario
 
 
 &nbsp;
-**Postcondición:** La consulta es enviada a los responsables del menú.
+**Postcondición:** La consulta es enviada a los responsables del menú
 
 
 &nbsp;
 **Curso Normal:**
-
-
-&nbsp;
 | Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
 |----------------------------------|-----------------------|
 | 1-Inicia la aplicación           | 2- El sistema muestra la página de inicio con las 5 opciones disponibles |
-| 3-Elije la opción "Contacto"     | 4- El sistema muestra la página de "Contacto" |
+| 3-Elije la opción "Contacto"     | 4- El sistema muestra la página "Contacto" |
 | 5-Ingresa nombre, apellido, correo y mensaje y pulsa el botón | 6- El sistema envía la consulta y vuelve a la página de inicio |
+
+
+&nbsp;
+**Caso Alternativo:**
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 5.1-Ingresa erróneamente los datos o falta ingresar un campo | El sistema muestra advertencia del error cometido |
+
+
+&nbsp;
+#### Caso de uso 2
+
+
+&nbsp;
+**Título:** Registrar Comensales
+
+
+&nbsp;
+**Actor:** Padre/Madre/Tutor
+
+
+&nbsp;
+**Descripción:** Probar el RF1
+
+
+&nbsp;
+**Precondición:** Ninguna
+
+
+&nbsp;
+**Postcondición:** Se agrega el comensal
+
+
+&nbsp;
+**Curso Normal:**
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 1-Inicia la aplicación           | 2- El sistema muestra la página de inicio con las 5 opciones disponibles |
+| 3-Elije la opción "Administrar Comensales" | 4- El sistema muestra la página "Comensales" |
+| 5-Pulsa "Registrar Comensal" | 6- El sistema muestra la página "Agregar Comensales" |
+| 7-Ingresa nombre, apellido, edad, colegio y dieta especial y pulsa "Agregar comensal" | 8- El sistema agrega al comensal y vuelve a la página "Comensales" |
+
+
+&nbsp;
+**Caso Alternativo:**
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 7.1-Ingresa erróneamente los datos o falta ingresar un campo | El sistema muestra advertencia del error cometido |
+
+
+&nbsp;
+#### Caso de uso 3
+
+
+&nbsp;
+**Título:** Ingresar orden y confirmarla
+
+
+&nbsp;
+**Actor:** Padre/Madre/Tutor
+
+
+&nbsp;
+**Descripción:** Probar el RF4
+
+
+&nbsp;
+**Precondición:** Tener algún comensal agregado
+
+
+&nbsp;
+**Postcondición:** Se envía la orden al encargado del menú
+
+
+&nbsp;
+**Curso Normal:**
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 1-Inicia la aplicación           | 2- El sistema muestra la página de inicio con las 5 opciones disponibles |
+| 3-Elije la opción "Ingresar Orden" | 4- El sistema muestra la página "Pedido" |
+| 5-Selecciona el comensal y los dias que quiere el menú y presiona "Ingresar Orden" | 6- El sistema muestra la página "Confirmación de pedido" |
+| 7-Presiona "Confirmar pedido" | 8- El sistema envia la orden |
+
+
+&nbsp;
+**Curso Alternativo:**
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 5.1-No elige ningún dia o ningún comensal | El sistema muestra advertencia del error cometido |
 
 
 &nbsp;
@@ -457,12 +539,31 @@ Mario
 
 ## VALIDACION Y VERIFICACION
 
-### Verificar la especificación
-Gaston
+### Verificion de los requerimientos
 
+
+&nbsp;
+**Lista de comprobación:**
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
+|:---------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Requerimiento | RF1 | RF2 | RF3 | RF4 | RF5 | RF6 | RF7 | RNF1 | RNF2 | RNF3 | RNF4 | RNF5 |
+| Consistente | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si |
+| Preciso | Si | Si | No | Si | Si | Si | Si | Si | Si | Si | Si | Si |
+| Verificable | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si |
+| Priorizado | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si |
+| Viable | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si | Si |
+
+
+&nbsp;
+En el RF3 no explica que diferencia hay si entra el padre o si entra el ecnargado a ver el menú
+
+
+&nbsp;
 ### Validar la solución con personas no involucradas en el proyecto
-Gaston
+Estuvimos en una instancia con una madre y le mostramos todos los requerimientos, casos de uso e interfaz. La madre comentó que en base a la interfaz no le quedaba claro si podía elegir un solo día en especifico o era necesario elegir toda la semana, al mostrarle los casos de uso le quedo más claro. Otra cosa que no vio fue el precio, y si el mismo varia por cantidad de pedidos.
 
+
+&nbsp;
 ## REFLEXION
 
 ### Detalle del trabajo individual
