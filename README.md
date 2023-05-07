@@ -307,10 +307,8 @@ Mario
 
 
 &nbsp;
-### User stories/ Use cases detallados
+### User stories
 
-
-&nbsp;
 #### User Stories 1
 
 
@@ -408,6 +406,46 @@ Mario
 
 &nbsp;
 **Criterios de aceptación:** El padre/madre/tutor tiene que entrar a la pestaña ver menú.
+
+
+&nbsp;
+### Casos de Uso Detallados
+
+
+&nbsp;
+#### Caso de uso 1
+
+
+&nbsp;
+**Título:** Consultar
+
+
+&nbsp;
+**Actor:** Padre/Madre/Tutor
+
+
+&nbsp;
+**Descripción:** Probar el RF7
+
+
+&nbsp;
+**Precondición:** Ninguna
+
+
+&nbsp;
+**Postcondición:** La consulta es enviada a los responsables del menú.
+
+
+&nbsp;
+**Curso Normal:**
+
+
+&nbsp;
+| Interacción de Padre/Madre/Tutor | Respuesta del Sistema |
+|----------------------------------|-----------------------|
+| 1-Inicia la aplicación           | 2- El sistema muestra la página de inicio con las 5 opciones disponibles |
+| 3-Elije la opción "Contacto"     | 4- El sistema muestra la página de "Contacto" |
+| 5-Ingresa nombre, apellido, correo y mensaje y pulsa el botón | 6- El sistema envía la consulta y vuelve a la página de inicio |
 
 
 &nbsp;
