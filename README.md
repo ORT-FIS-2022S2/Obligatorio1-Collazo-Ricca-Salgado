@@ -307,10 +307,110 @@ Mario
 
 
 &nbsp;
-
 ### User stories/ Use cases detallados
-Geston
 
+
+&nbsp;
+#### User Stories 1
+
+
+&nbsp;
+**Título:** Consulta
+
+
+&nbsp;
+**Descripción:** Como padre/madre/tutor quiero poder consultar sobre mis dudas con el menú o con alguna receta en particular para poder tomar una decisión con seguridad.
+
+
+&nbsp;
+**Criterios de aceptación:**El padre/madre/tutor deberá llenar un formulario con los campos:
+
+
+&nbsp;
+-Nombre
+
+
+&nbsp;
+-Apellido
+
+
+&nbsp;
+-Correo electrónico
+
+
+&nbsp;
+-Mensaje
+
+
+&nbsp;
+#### User stories 2
+
+
+&nbsp;
+**Título:** Agregar comensales
+
+
+&nbsp;
+**Descripción:** Como padre/madre/tutor quiero poder registrar a mis hijos para poder gestionarlos en la aplicación y agregarles órdenes.
+
+
+&nbsp;
+**Criterios de aceptación:** El padre/madre/tutor deberá llenar un formulario con estos campos:
+
+
+&nbsp;
+-Nombre
+
+
+&nbsp;
+-Apellido
+
+
+&nbsp;
+-Edad
+
+
+&nbsp;
+-Colegio
+
+
+&nbsp;
+-Dieta especial
+
+
+&nbsp;
+#### User stories 3
+
+
+&nbsp;
+**Título:** Ingresar orden
+
+
+&nbsp;
+**Descripción:** Como padre/madre/tutor quiero poder ingresar órdenes a mis hijos para ya confirmar lo que van a comer en los días que no lleven comida de casa.
+
+
+&nbsp;
+**Criterios de aceptación:** El padre/madre/tutor debe tener algún comensal agregado y elegir los días que quiere pedir el menú.
+
+
+&nbsp;
+#### User stories 4
+
+
+&nbsp;
+**Título:** Ver menú
+
+
+&nbsp;
+**Descripción:** Como padre/madre/tutor quiero poder entrar a la aplicación a ver el menú para decidir qué días voy a pedirlo.
+
+
+&nbsp;
+**Criterios de aceptación:** El padre/madre/tutor tiene que entrar a la pestaña ver menú.
+
+
+&nbsp;
 ### Bocetos de IU
 ![U1_1](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_1.png)
 ![U1_2](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_2.png)
