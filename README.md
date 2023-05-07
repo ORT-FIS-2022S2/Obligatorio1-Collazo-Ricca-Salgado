@@ -323,7 +323,7 @@ Mario
 
 
 &nbsp;
-**Criterios de aceptación:**El padre/madre/tutor deberá llenar un formulario con los campos:
+**Criterios de aceptación:** El padre/madre/tutor deberá llenar un formulario con los campos:
 
 
 &nbsp;
