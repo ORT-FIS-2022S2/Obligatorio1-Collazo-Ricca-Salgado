@@ -131,20 +131,29 @@ Ambos padres encontraron difícil la comunicación con los centros escolares, ya
 
 #### Observaciones
 Al estudiar el funcionamiento de un comedor escolar llegamos a las siguientes conclusiones
+
 &nbsp;
 • La escuela tiene un sistema de comedor bastante organizado y limpio, con personal encargado de la preparación y distribución de los alimentos.
+
 &nbsp;
-• Los niños están sentados en mesas largas, compartiendo el espacio con otros estudiantes de diferentes edades, fomentando la socialización y el compañerismo durante la comida.
+• Los niños están sentados en mesas largas, compartiendo el espacio con otros estudiantes de diferentes edades, fomentando la socialización y el compañerismo durante la
+comida.
+
 &nbsp;
 • Sin embargo, se observa que hay poca variedad de alimentos en el menú, lo que podría resultar monótono y poco atractivo para los niños a largo plazo.
+
 &nbsp;
 • Además, se nota la falta de opciones para niños con restricciones dietarias, ya sea por motivos religiosos, éticos o médicos.
+
 &nbsp;
 • No se comunica con suficiente antelación el menú semanal a los padres, lo que dificulta la planificación de las compras de alimentos en casa para aquellos padres que desean complementar la dieta de sus hijos en casa.
+
 &nbsp;
 • Aunque las recetas son sencillas los encargados del comedor no tienen acceso a la receta con antelación, lo que podria llegar a dificultad la preparación correcta de los platos.
+
 &nbsp;
 • También se observa que no hay una forma clara para que los padres se comuniquen con el equipo del comedor para informar sobre restricciones dietarias o dar retroalimentación sobre la dieta de sus hijos.
+
 &nbsp;
 &nbsp;
 
