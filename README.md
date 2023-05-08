@@ -131,20 +131,29 @@ Ambos padres encontraron difícil la comunicación con los centros escolares, ya
 
 #### Observaciones
 Al estudiar el funcionamiento de un comedor escolar llegamos a las siguientes conclusiones
+
 &nbsp;
 • La escuela tiene un sistema de comedor bastante organizado y limpio, con personal encargado de la preparación y distribución de los alimentos.
+
 &nbsp;
-• Los niños están sentados en mesas largas, compartiendo el espacio con otros estudiantes de diferentes edades, fomentando la socialización y el compañerismo durante la comida.
+• Los niños están sentados en mesas largas, compartiendo el espacio con otros estudiantes de diferentes edades, fomentando la socialización y el compañerismo durante la
+comida.
+
 &nbsp;
 • Sin embargo, se observa que hay poca variedad de alimentos en el menú, lo que podría resultar monótono y poco atractivo para los niños a largo plazo.
+
 &nbsp;
 • Además, se nota la falta de opciones para niños con restricciones dietarias, ya sea por motivos religiosos, éticos o médicos.
+
 &nbsp;
 • No se comunica con suficiente antelación el menú semanal a los padres, lo que dificulta la planificación de las compras de alimentos en casa para aquellos padres que desean complementar la dieta de sus hijos en casa.
+
 &nbsp;
 • Aunque las recetas son sencillas los encargados del comedor no tienen acceso a la receta con antelación, lo que podria llegar a dificultad la preparación correcta de los platos.
+
 &nbsp;
 • También se observa que no hay una forma clara para que los padres se comuniquen con el equipo del comedor para informar sobre restricciones dietarias o dar retroalimentación sobre la dieta de sus hijos.
+
 &nbsp;
 &nbsp;
 
@@ -596,6 +605,9 @@ Estuvimos en una instancia con una madre y le mostramos todos los requerimientos
 * **Laura**
 
 Definimos en conjunto los temas que iba a llevar adelante cada uno, y se pautaron reuniones para ver avances y comentar sobre posibles cambios. En mi caso, me encargue del detalle de los repositorios Git, del versionado, los requerimientos funcionales y no funcionales, y del diseño de la interfaz de usuario. En cuanto a la interfaz, me pareció interesante el uso de Figma, ya que es una herramienta que no conocía y me resulto muy útil para poder plasmar las ideas que teniamos en mente. En cuanto a los repositorios, me pareció interesante el uso de Git, ya que es una herramienta que no conocía y me resulto muy útil para el trabajo en equipo y por sobre todo para el control de cambios de versiones. Los requerimientos funcionales fueron clave para poder definir el alcance del proyecto, y los no funcionales para poder definir las características que debía tener el sistema.
+
+* **Mario** 
+Yo me encargué de la parte de elicitación (aunque estuvimos en contacto constante con el resto de los compañeros del obligatorio ya que las partes no eran independientes), en este proceso pude aprender bastante del funcionamiento de los comedores escolares, en los cuales me llevé una grata sorpresa de su buen funcionamiento a pesar de las limitaciones logisticas y de presupuesto. Ese buen funcionamiento nos inspiró a más que reinventar la rueda profundizar en los aspectos a mejorar, en nuestro caso elegimos la comunicación entre la cocina y el hogar ya que creemos que una app puede ser de gran ayuda en esto al centralizar tanto la decición de recibir o no el menu diario como la comunicación con la escuela en una sola via.
 
 ### Técnicas aplicadas y aprendizajes
 Aprendimos a utilizar Figma y Git, dos herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. 
