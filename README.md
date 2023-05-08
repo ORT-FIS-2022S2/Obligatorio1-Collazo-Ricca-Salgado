@@ -97,7 +97,9 @@ En resumen, aplicar buenas prácticas de versionado en el desarrollo de software
 Utilizamos dos ramas principales, develop y main. La rama main se utiliza unicamente para pasar a producción, y la rama develop se utiliza para el desarrollo del proyecto. Cada vez que se finaliza una funcionalidad, que el equipo aprueba, se hace un merge de la rama develop a la rama main, y se sube a producción.
 
 ### Resumen de commits y evolución del proyecto 
-Puesta en comun
+![Commits_1](Commits_page-0001.jpg)
+![Commits_2](Commits_page-0002.jpg)
+![Commits_3](Commits_page-0003.jpg)
 
 ## ELICITACION
 
