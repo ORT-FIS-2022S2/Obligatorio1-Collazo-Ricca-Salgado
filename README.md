@@ -615,7 +615,9 @@ Yo me encargué de la parte de elicitación (aunque estuvimos en contacto consta
 Yo estuve a cargo de los User Stories, los Cases detallados, la verificación y la validación. Encargarme de las stories y los casos detallados me hicieron ver que separar el problema en partes ayuda a tener más organizado el proyecto ademas de facilitar la identificación de los problemas principales que hay que probar. Haciendo la verificación me di cuenta de que no siempre se plasma en escrito la idea al 100%, podes omitir un detalle por distracción o porque vos lo entendes bien. Por eso es importante que alguien que no hizo los requerimientos los revise. En la validación la verdad disfrute mostrar la parte del proyecto que habiamos logrado construir y como una persona ajena lo interpretaba. 
 
 ### Técnicas aplicadas y aprendizajes
-Aprendimos a utilizar Figma y Git, dos herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. 
+Aprendimos a utilizar Figma, Git y Github, herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. Dentro de la elaboración del readme aprendimos sobre la utilización de Markdown.
+También utilizamos herramientas como Uxpressia y Draw.io para la elaboración de los user personas y el diagrama de modelo conceptual.
+
 
 
 
