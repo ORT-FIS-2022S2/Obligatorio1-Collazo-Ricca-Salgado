@@ -593,10 +593,12 @@ Estuvimos en una instancia con una madre y le mostramos todos los requerimientos
 ## REFLEXION
 
 ### Detalle del trabajo individual
-Puesta en comun
+* **Laura**
+
+Definimos en conjunto los temas que iba a llevar adelante cada uno, y se pautaron reuniones para ver avances y comentar sobre posibles cambios. En mi caso, me encargue del detalle de los repositorios Git, del versionado, los requerimientos funcionales y no funcionales, y del diseño de la interfaz de usuario. En cuanto a la interfaz, me pareció interesante el uso de Figma, ya que es una herramienta que no conocía y me resulto muy útil para poder plasmar las ideas que teniamos en mente. En cuanto a los repositorios, me pareció interesante el uso de Git, ya que es una herramienta que no conocía y me resulto muy útil para el trabajo en equipo y por sobre todo para el control de cambios de versiones. Los requerimientos funcionales fueron clave para poder definir el alcance del proyecto, y los no funcionales para poder definir las características que debía tener el sistema.
 
 ### Técnicas aplicadas y aprendizajes
-Puesta en comun
+Aprendimos a utilizar Figma y Git, dos herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. 
 
 
 
