@@ -593,7 +593,7 @@ Estuvimos en una instancia con una madre y le mostramos todos los requerimientos
 ## REFLEXION
 
 ### Detalle del trabajo individual
-Puesta en comun
+Mario: Yo me encargué de la parte de elicitación (aunque estuvimos en contacto constante con el resto de los compañeros del obligatorio ya que las partes no eran independientes), en este proceso pude aprender bastante del funcionamiento de los comedores escolares, en los cuales me llevé una grata sorpresa de su buen funcionamiento a pesar de las limitaciones logisticas y de presupuesto. Ese buen funcionamiento nos inspiró a más que reinventar la rueda profundizar en los aspectos a mejorar, en nuestro caso elegimos la comunicación entre la cocina y el hogar ya que creemos que una app puede ser de gran ayuda en esto al centralizar tanto la decición de recibir o no el menu diario como la comunicación con la escuela en una sola via.
 
 ### Técnicas aplicadas y aprendizajes
 Puesta en comun
