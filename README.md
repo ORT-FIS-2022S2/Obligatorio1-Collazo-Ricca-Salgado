@@ -569,9 +569,9 @@ A raíz de las entrevistas y luego de discutir el alcance de la aplicación deci
 
 &nbsp;
 ### Bocetos de IU
-![U1_1](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_1.png)
-![U1_2](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_2.png)
-![U1_3](https://github.com/ORT-FIS-2022S2/proyecto-LCMCR/blob/main/UI_3.png)
+![U1_1](UI_1.png)
+![U1_2](UI_2.png)
+![U1_3](UI_3.png)
 
 
 ## VALIDACION Y VERIFICACION
