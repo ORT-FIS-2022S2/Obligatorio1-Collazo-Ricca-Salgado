@@ -618,8 +618,25 @@ Yo estuve a cargo de los User Stories, los Cases detallados, la verificación y 
 Aprendimos a utilizar Figma, Git y Github, herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. Dentro de la elaboración del readme aprendimos sobre la utilización de Markdown.
 También utilizamos herramientas como Uxpressia y Draw.io para la elaboración de los user personas y el diagrama de modelo conceptual.
 
+# FUNDAMENTOS DE INGENIERIA DE SOFTWARE - OBLIGATORIO 2
 
+## ESTILOS PREDEFINIDOS POR EL EQUIPO
 
+### JavaScript
 
+* Los nombres de los archivos deben estar todos en minúscula y pueden contener guiones bajos.
+* Los comentarios deben estar en una unica linea y deben estar alineados con el codigo.
+* Se debe utilizar camelCase para los nombres de las funciones y las variables.
+* Se debe utilizar PascalCase para los nombres de los constructores y las clases.
+* Se debe utilizar mayúsculas para las constantes.
+* El máximo de caracteres por línea es de 80.
+* La indentación debe ser de 2 espacios.
+* Se debe dejar una línea en blanco entre los bloques de código.
 
+### HTML
 
+* Los nombres de los elementos de atributos deben estar en minúscula.
+* No se debe utilizar JavaScript dentro del HTML, se debe importar.
+* El máximo de caracteres por línea es de 80.
+* La indentación debe ser de 2 espacios.
+* Se debe dejar una línea en blanco entre los bloques de código.
