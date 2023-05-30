@@ -14,73 +14,95 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="https://github.com/ORT-FIS-2022S2/Obligatorio1-Collazo-Ricca-Salgado/blob/develop/src/interface/E.jpg"
+            src="https://raw.githubusercontent.com/ORT-FIS-2022S2/Obligatorio1-Collazo-Ricca-Salgado/develop/src/interface/img/Logo.jpg"
             alt="Logo"
-            width="60"
+            width="48"
             height="48"
-            class="d-inline-block align-text-top"
+            class="d-inline-block align-text-center"
           />
           Agregar Comensales
         </a>
       </div>
     </nav>
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Index</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Agregar Comensal</li>
-        </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Index</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Agregar Comensal
+        </li>
+      </ol>
     </nav>
   </head>
 
   <body>
     <form>
-        <div class="form-group col-4 p-2 mx-auto">
-          <label for="nombre">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Santiago">
-        </div>
-        <div class="form-group col-4 p-2 mx-auto">
-            <label for="apellido">Apellido</label>
-            <input type="text" class="form-control" id="apellido" placeholder="Molinari">
-        </div>
-        <div class="form-group col-4 p-2 mx-auto">
-            <label for="edad">Edad</label>
-            <input type="number" class="form-control" id="edad" placeholder="12">
-        </div>
-        <div class="form-group col-4 p-2 mx-auto">
-            <label for="colegio">Colegio</label>
-            <select class="form-control" id="colegio">
-              <option>Seminario</option>
-              <option>Crandon</option>
-              <option>Elbio Fernandez</option>
-              <option>Los Pilares</option>
-              <option>Jesus Maria</option>
-              <option>Santa Rita</option>
-              <option>Jose Pedro Varela</option>
-            </select>
-        </div>
-        <div class="form-group col-4 p-2 mx-auto">
-            <label for="dieta-especial">Dieta Especial</label>
-            <select class="form-control" id="dieta-especial">
-              <option>Ninguna</option>
-              <option>Celíaco</option>
-              <option>Vegano</option>
-              <option>Vegetariano</option>
-              <option>Diabético</option>
-              <option>Koscher</option>
-            </select>
-        </div>
-        <div class="d-grid gap-2 col-4 p-2 mx-auto">
-            <button
-              class="btn btn-danger"
-              id="agregar-comensal"
-              data-bs-toggle="tab"
-            >
-              Agregar comensal
-            </button>
+      <div class="form-group col-4 p-2 mx-auto">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="nombre"
+          placeholder="Santiago"
+        />
+      </div>
+      <div class="form-group col-4 p-2 mx-auto">
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          class="form-control"
+          id="apellido"
+          placeholder="Molinari"
+        />
+      </div>
+      <div class="form-group col-4 p-2 mx-auto">
+        <label for="edad">Edad</label>
+        <input type="number" class="form-control" id="edad" placeholder="12" />
+      </div>
+      <div class="form-group col-4 p-2 mx-auto">
+        <label for="colegio">Colegio</label>
+        <select class="form-control" id="colegio">
+          <option>Seminario</option>
+          <option>Crandon</option>
+          <option>Elbio Fernandez</option>
+          <option>Los Pilares</option>
+          <option>Jesus Maria</option>
+          <option>Santa Rita</option>
+          <option>Jose Pedro Varela</option>
+        </select>
+      </div>
+      <div class="form-group col-4 p-2 mx-auto">
+        <label for="dieta-especial">Dieta Especial</label>
+        <select class="form-control" id="dieta-especial">
+          <option>Ninguna</option>
+          <option>Celíaco</option>
+          <option>Vegano</option>
+          <option>Vegetariano</option>
+          <option>Diabético</option>
+          <option>Koscher</option>
+        </select>
+      </div>
+      <div class="d-grid gap-2 col-4 p-2 mx-auto">
+        <button
+          class="btn btn-danger"
+          id="agregar-comensal"
+          data-bs-toggle="tab"
+        >
+          Agregar comensal
+        </button>
+      </div>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" type="module"></script>
   </body>
   <footer>
     <nav class="navbar fixed-bottom navbar-dark bg-danger">
-        <p class="navbar-brand mx-auto">Obligatorio FIS 2023S1 Pt. 2 - Collazo, Ricca y Salgado</p>
+      <p class="navbar-brand mx-auto">
+        Obligatorio FIS 2023S1 Pt. 2 - Collazo, Ricca y Salgado
+      </p>
     </nav>
   </footer>
 </html>
