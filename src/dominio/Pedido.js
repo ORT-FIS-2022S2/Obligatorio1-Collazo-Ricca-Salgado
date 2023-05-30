@@ -12,6 +12,8 @@ export class Comensal {
         this.setComensal(unComensal);
     }
 
+    constructor() {}
+
     getDia() {
         return this.#dia;
     }

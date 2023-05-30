@@ -13,6 +13,7 @@ export class Comensal {
         this.setColegio(unColegio);
         this.setDieta(unaDieta);
     }
+    constructor() {}
 
     getNombre() {
         return this.#nombre;
