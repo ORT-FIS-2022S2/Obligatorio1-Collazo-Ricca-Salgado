@@ -10,19 +10,25 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-dark bg-danger">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="https://github.com/ORT-FIS-2022S2/Obligatorio1-Collazo-Ricca-Salgado/blob/develop/src/interface/img/MenuEscolarLogo.jpg"
+            src="https://github.com/ORT-FIS-2022S2/Obligatorio1-Collazo-Ricca-Salgado/blob/develop/src/interface/E.jpg"
             alt="Logo"
-            width="30"
-            height="24"
+            width="60"
+            height="48"
             class="d-inline-block align-text-top"
           />
           Agregar Comensales
         </a>
       </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Index</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Agregar Comensal</li>
+        </ol>
     </nav>
   </head>
 
@@ -55,6 +61,7 @@
         <div class="form-group col-4 p-2 mx-auto">
             <label for="dieta-especial">Dieta Especial</label>
             <select class="form-control" id="dieta-especial">
+              <option>Ninguna</option>
               <option>Celíaco</option>
               <option>Vegano</option>
               <option>Vegetariano</option>
@@ -71,4 +78,9 @@
               Agregar comensal
             </button>
   </body>
+  <footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-danger">
+        <p class="navbar-brand mx-auto">Obligatorio FIS 2023S1 Pt. 2 - Collazo, Ricca y Salgado</p>
+    </nav>
+  </footer>
 </html>
