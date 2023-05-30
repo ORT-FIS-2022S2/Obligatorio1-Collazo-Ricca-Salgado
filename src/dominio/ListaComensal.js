@@ -1,4 +1,4 @@
-export class Listacomensal {
+export class ListaComensal {
 
     #comensal;
 
@@ -6,8 +6,8 @@ export class Listacomensal {
         this.#comensal = [];
     }
 
-    add(comensal) {
-        this.#comensal.push(comensal);
+    add(unComensal) {
+        this.#comensal.push(unComensal);
     }
 
     getListaComensal() {

@@ -6,10 +6,10 @@ export class ListaPedido {
         this.#pedido = [];
     }
 
-    add(pedido) {
-        this.#pedido.push(pedido);
+    add(unPedido) {
+        this.#pedido.push(unPedido);
     }
-
+    
     getListaPedido() {
         return this.#pedido;
     }
