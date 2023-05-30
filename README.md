@@ -159,14 +159,14 @@ comida.
 
 #### Lluvia de ideas 
 A raíz de las entrevistas y luego de discutir el alcance de la aplicación decidimos hacer una lluvia de ideas para ver que funcionalidades debería tener la app.
-    •	Visualización del menú semanal con anticipación para los padres y los estudiantes.
-    •	Plataforma de intercambio entre los padres y los encargados del comedor para dar retroalimentación sobre los alimentos y comunicar restricciones dietarías.
-    •	Funcionalidad para que los padres puedan enviar sus comentarios y sugerencias sobre el menú de la semana y los alimentos servidos en el comedor.
-    •	Notificaciones sobre posibles cambios en el menú semanal o cancelaciones del servicio de comedor.
-    •	Sistema de registro para informar sobre restricciones dietarías de los estudiantes.
-    •	Información nutricional sobre los alimentos servidos en el comedor.
-    •	Posibilidad de solicitar viandas especiales para estudiantes con restricciones dietarías.
-    •	Espacio para que los estudiantes puedan compartir sus opiniones sobre los alimentos servidos en el comedor y dar retroalimentación.
+* Visualización del menú semanal con anticipación para los padres y los estudiantes.
+* Plataforma de intercambio entre los padres y los encargados del comedor para dar retroalimentación sobre los alimentos y comunicar restricciones dietarías.
+* Funcionalidad para que los padres puedan enviar sus comentarios y sugerencias sobre el menú de la semana y los alimentos servidos en el comedor.
+* Notificaciones sobre posibles cambios en el menú semanal o cancelaciones del servicio de comedor.
+* Sistema de registro para informar sobre restricciones dietarías de los estudiantes.
+* Información nutricional sobre los alimentos servidos en el comedor.
+* Posibilidad de solicitar viandas especiales para estudiantes con restricciones dietarías.
+* Espacio para que los estudiantes puedan compartir sus opiniones sobre los alimentos servidos en el comedor y dar retroalimentación.
 
 
 ### Referencias a fuentes de información
