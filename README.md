@@ -640,3 +640,8 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 * El máximo de caracteres por línea es de 80.
 * La indentación debe ser de 2 espacios.
 * Se debe dejar una línea en blanco entre los bloques de código.
+
+## UML
+
+![uml](uml.jpeg)
+
