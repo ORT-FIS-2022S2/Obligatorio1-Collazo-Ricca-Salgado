@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-lcmcr",
+  "version": "1.0.0",
+  "description": "**Estudiantes:** * Laura Collazo - 252803 * Mario Ricca - 212393 * Gaston Salgado - 212387",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

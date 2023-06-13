@@ -645,3 +645,7 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 
 ![uml](uml.jpeg)
 
+## CASOS DE USO SELECCIONADOS
+
+* Caso de uso 2: Registrar Comensales
+* Revisar historial pedido
