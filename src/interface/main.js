@@ -1,7 +1,7 @@
-import { comensal } from "../dominio/comensal.js";
-import { listacomensal } from "../dominio/listacomensal.js";
-import { pedido } from "../dominio/pedido.js";
-import { listapedido } from "../dominio/listapedido.js";
+import { Comensal } from "../dominio/comensal.js";
+import { ListaComensal } from "../dominio/listacomensal.js";
+import { Pedido } from "../dominio/pedido.js";
+import { ListaPedido } from "../dominio/listapedido.js";
 
 comensal1.setNombre("Santiago");
 comensal1.setApellido("Molinari");
@@ -110,19 +110,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var form = document.querySelector('#form-agregar-comensal');
     
     form.addEventListener('submit', function(event) {
-        // Prevenir el comportamiento por defecto del formulario
         event.preventDefault();
-        // Seleccionar los campos del formulario y obtener sus valores
         var nombre = document.getElementById('nombre').value;
         var apellido = document.getElementById('apellido').value;
         var edad = document.getElementById('edad').value;
         var colegio = document.getElementById('colegio').value;
         var dietaEspecial = document.getElementById('dieta-especial').value;
-        // Crear un nuevo comensal con esos valores
         var nuevoComensal = new comensal(nombre, apellido, edad, colegio, dietaEspecial);
-        // Aquí puedes agregar el nuevo comensal a la lista de comensales
         listacomensal.add(nuevoComensal);
-        // Limpia el formulario para un nuevo ingreso
         form.reset();
     });
 });
