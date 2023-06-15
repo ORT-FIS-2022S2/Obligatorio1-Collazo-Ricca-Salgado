@@ -1,4 +1,4 @@
-export class Comensal {
+export class Pedido {
 
     #dia;
     #detalleMenu;
