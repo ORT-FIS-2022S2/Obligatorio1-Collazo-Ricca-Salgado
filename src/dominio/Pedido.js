@@ -12,7 +12,7 @@ export class Comensal {
         this.setComensal(unComensal);
     }
 
-    constructor() {}
+    // constructor() {}
 
     getDia() {
         return this.#dia;

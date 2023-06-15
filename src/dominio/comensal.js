@@ -13,7 +13,13 @@ export class Comensal {
         this.setColegio(unColegio);
         this.setDieta(unaDieta);
     }
-    constructor() {}
+    // constructor() {
+    //     this.setNombre("");
+    //     this.setApellido("");
+    //     this.setEdad(0);
+    //     this.setColegio("");
+    //     this.setDieta("");
+    // }
 
     getNombre() {
         return this.#nombre;
