@@ -6,7 +6,7 @@ export class ListaComensal {
         this.#comensal = [];
     }
 
-    add(unComensal) {
+    addComensal(unComensal) {
         this.#comensal.push(unComensal);
     }
 

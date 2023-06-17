@@ -6,7 +6,7 @@ export class ListaPedido {
         this.#pedido = [];
     }
 
-    add(unPedido) {
+    addPedido(unPedido) {
         this.#pedido.push(unPedido);
     }
     
