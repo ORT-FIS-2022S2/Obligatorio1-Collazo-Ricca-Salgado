@@ -65,4 +65,10 @@ export class Comensal {
     toString() {
         return `${this.getNombre()} ${this.getApellido()}`;
     }
+
+    equals(unComensal) {
+        return this.getNombre() === unComensal.getNombre() &&
+            this.getApellido() === unComensal.getApellido();
+    }
+      
 }
