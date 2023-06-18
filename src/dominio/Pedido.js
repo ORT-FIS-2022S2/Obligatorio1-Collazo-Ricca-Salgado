@@ -1,52 +1,52 @@
 export class Pedido {
 
-    #dia;
-    #detalleMenu;
-    #fecha;
-    #comensal;
+  #dia;
+  #detalleMenu;
+  #fecha;
+  #comensal;
 
-    constructor(unDia,unDetalle,unaFecha,unComensal){
-        this.setDia(unDia);
-        this.setDetalle(unDetalle);
-        this.setFecha(unaFecha);
-        this.setComensal(unComensal);
-    }
+  constructor(unDia,unDetalle,unaFecha,unComensal){
+    this.setDia(unDia);
+    this.setDetalle(unDetalle);
+    this.setFecha(unaFecha);
+    this.setComensal(unComensal);
+  }
 
     // constructor() {}
 
-    getDia() {
-        return this.#dia;
-    }
+  getDia() {
+    return this.#dia;
+  }
 
-    setDia(unDia) {
-        this.#dia = unDia;
-    }
+  setDia(unDia) {
+    this.#dia = unDia;
+  }
 
-    getDetalle() {
-        return this.#detalleMenu;
-    }
+  getDetalle() {
+    return this.#detalleMenu;
+  }
 
-    setDetalle(unDetalle) {
-        this.#detalleMenu = unDetalle;
-    }
+  setDetalle(unDetalle) {
+    this.#detalleMenu = unDetalle;
+  }
 
-    getFecha() {
-        return this.#fecha;
-    }
+  getFecha() {
+    return this.#fecha;
+  }
 
-    setFecha(unaFecha) {
-        this.#fecha = unaFecha;
-    }
+  setFecha(unaFecha) {
+    this.#fecha = unaFecha;
+  }
 
-    getComensal() {
-        return this.#comensal;
-    }
+  getComensal() {
+    return this.#comensal;
+  }
 
-    setComensal(unComensal) {
-        this.#comensal = unComensal;
-    }
+  setComensal(unComensal) {
+    this.#comensal = unComensal;
+  }
 
-    toString() {
-        return `${this.getDetalle()}`;
-    }
+  toString() {
+    return `${this.getDetalle()}`;
+  }
 }

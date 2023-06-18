@@ -1,17 +1,17 @@
 export class ListaComensal {
 
-    #comensal;
+  #comensal;
 
-    constructor() {
-        this.#comensal = [];
-    }
+  constructor() {
+    this.#comensal = [];
+  }
 
-    addComensal(unComensal) {
-        this.#comensal.push(unComensal);
-    }
+  addComensal(unComensal) {
+    this.#comensal.push(unComensal);
+  }
 
-    getListaComensal() {
-        return this.#comensal;
-    }
+  getListaComensal() {
+    return this.#comensal;
+  }
 
 }
