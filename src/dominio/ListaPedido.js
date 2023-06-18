@@ -1,16 +1,16 @@
 export class ListaPedido {
 
-    #pedido;
+#pedido;
 
-    constructor() {
-        this.#pedido = [];
-    }
+  constructor() {
+    this.#pedido = [];
+  }
 
-    addPedido(unPedido) {
-        this.#pedido.push(unPedido);
-    }
+  addPedido(unPedido) {
+    this.#pedido.push(unPedido);
+  }
     
-    getListaPedido() {
-        return this.#pedido;
-    }
+  getListaPedido() {
+    return this.#pedido;
+  }
 }
