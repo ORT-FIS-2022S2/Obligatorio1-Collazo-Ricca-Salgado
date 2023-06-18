@@ -657,4 +657,5 @@ Para realizar las pruebas unitarias utilizamos el marco de prueba Jest, para ell
 Los tests unitarios se encuentran en la carpeta "tests" y se ejecutan con el comando "npm run test" y consisten de 2 tipos de pruebas, las pruebas de validez donde se determina si los datos ingresados son válidos y las pruebas donde se determina si los datos ingresados son consistentes con los datos de la base de datos. Por ejemplo si lo genero un comensal con el nombre Mario, el test unitario correspondiente verifica que en el campo "nombre" del comensal se encuentre el nombre Mario. Luego hay una prueba de la funcion toString que verifica que se imprima correctamente el comensal con el formato nombre + apellido.
 &nbsp;
 Al correr el comando npm run test se ejecutan los tests unitarios y se obtiene el siguiente resultado:
+&nbsp;
 ![tests](passedTests.jpg)
