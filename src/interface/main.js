@@ -6,6 +6,7 @@ import { ListaPedido } from "../dominio/listapedido.js";
 
 document.addEventListener('DOMContentLoaded', () => { //DOMContentLoaded es un evento que se dispara cuando el documento HTML ha sido completamente cargado y parseado, sin esperar hojas de estilo, imágenes y subtramas para finalizar la carga.
 
+
 const listaComensal = new ListaComensal();
 const listaPedido = new ListaPedido();
 
@@ -67,20 +68,29 @@ listaPedido.addPedido(pedido10);
 
     if (document.querySelector('#form-agregar-comensal')) {//se agrega funcionalidad al boton agregar comensal
         document.querySelector('#form-agregar-comensal').addEventListener('submit', (event) => {
-          event.preventDefault();
-          const nombre = document.querySelector('#nombre').value;
-          const apellido = document.querySelector('#apellido').value;
-          const edad = document.querySelector('#edad').value;
-          const colegio = document.querySelector('#colegio').value;
-          const dieta = document.querySelector('#dieta-especial').value;
-          const nuevoComensal = new Comensal(nombre, apellido, edad, colegio, dieta);
-          console.log(nuevoComensal);
-          listaComensal.addComensal(nuevoComensal);
-          localStorage.setItem('listaComensal', JSON.stringify(listaComensal.getComensal()));
-          console.log(listaComensal);
-          event.target.reset();
+            event.preventDefault();
+            try {
+                const nombre = document.querySelector('#nombre').value;
+                const apellido = document.querySelector('#apellido').value;
+                const edad = document.querySelector('#edad').value;
+                const colegio = document.querySelector('#colegio').value;
+                const dieta = document.querySelector('#dieta-especial').value;
+                if (nombre === "" || apellido === "" || edad === "" || colegio === "" || dieta === "") {
+                    throw new Error("Todos los campos deben ser llenados");
+                }
+                const nuevoComensal = new Comensal(nombre, apellido, edad, colegio, dieta);
+                console.log(nuevoComensal);
+                listaComensal.addComensal(nuevoComensal);
+                localStorage.setItem('listaComensal', JSON.stringify(listaComensal.getListaComensal()));
+                console.log(listaComensal);
+                event.target.reset();
+            } catch (error) {
+                console.error("Ocurrió un error al agregar el comensal: ", error);
+                window.alert(error);
+            }
         });
-      }
+    }
+    
     
     let formMes = document.getElementById('mes-option');
     let formComensal = document.getElementById('comensal-option');

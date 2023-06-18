@@ -6,6 +6,9 @@ export class Pedido {
   #comensal;
 
   constructor(unDia,unDetalle,unaFecha,unComensal){
+    if (unDia === "" || unDetalle === "" || unaFecha === "" || unComensal === "") {
+      throw new Error("Todos los campos deben ser llenados");
+    }
     this.setDia(unDia);
     this.setDetalle(unDetalle);
     this.setFecha(unaFecha);
