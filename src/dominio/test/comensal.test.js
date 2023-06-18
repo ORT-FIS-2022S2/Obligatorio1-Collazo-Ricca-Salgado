@@ -28,40 +28,39 @@ describe('Comensal', () => {
         expect(comensal.getDieta()).toBe("Dieta");
     });
 
-   /* test ("crear un comensal nombre vacio", () => {
+    test ("crear un comensal nombre vacio", () => {
         const comensal = new Comensal("","Perez",12,"Colegio","Dieta");
-        expect(comensal.getNombre()).toBe("");
+        const error = "El nombre no puede estar vacio";
+        expect(() => comensal.isValid()).toThrow(error);
     });
 
     test ("crear un comensal apellido vacio", () => {
         const comensal = new Comensal("Juan","",12,"Colegio","Dieta");
-        expect(comensal.getApellido()).toBe("");
-    });
-
-    test ("crear un comensal edad vacio", () => {
-        const comensal = new Comensal("Juan","Perez",0,"Colegio","Dieta");
-        expect(comensal.getEdad()).toBe(0);
+        const error = "El apellido no puede estar vacio";
+        expect(() => comensal.isValid()).toThrow(error);
     });
 
     test ("crear un comensal colegio vacio", () => {
         const comensal = new Comensal("Juan","Perez",12,"","Dieta");
-        expect(comensal.getColegio()).toBe("");
+        const error = "El colegio no puede estar vacio";
+        expect(() => comensal.isValid()).toThrow(error);
     });
 
     test ("crear un comensal dieta vacio", () => {
         const comensal = new Comensal("Juan","Perez",12,"Colegio","");
-        expect(comensal.getDieta()).toBe("");
-    }); */
+        const error = "La dieta no puede estar vacia";
+        expect(() => comensal.isValid()).toThrow(error);
+    });
 
     test ("toString", () => {
         const comensal = new Comensal("Juan","Perez",12,"Colegio","Dieta");
         expect(comensal.toString()).toBe("Juan Perez");
     });
 
-    /*test ("valid comensal", () => {
+    test ("valid comensal", () => {
         const comensal = new Comensal("Juan","Perez",12,"Colegio","Dieta");
-        expect(comensal.valid()).toBe(true);
-    }); */
+        expect(comensal.isValid()).toBe(true);
+    }); 
 
 
 

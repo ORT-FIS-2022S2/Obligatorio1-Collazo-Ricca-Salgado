@@ -70,5 +70,22 @@ export class Comensal {
         return this.getNombre() === unComensal.getNombre() &&
             this.getApellido() === unComensal.getApellido();
     }
+
+    isValid() {
+        if (this.getNombre() === "") {
+            throw new Error("El nombre no puede estar vacio");
+        }
+        if (this.getApellido() === "") {
+            throw new Error("El apellido no puede estar vacio");
+        }
+        if (this.getColegio() === "") {
+            throw new Error("El colegio no puede estar vacio");
+        }
+        if (this.getDieta() === "") {
+            throw new Error("La dieta no puede estar vacia");
+        }
+        return true;
+    }
+
       
 }
