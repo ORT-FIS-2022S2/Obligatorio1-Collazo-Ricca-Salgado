@@ -641,11 +641,26 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 * La indentación debe ser de 2 espacios.
 * Se debe dejar una línea en blanco entre los bloques de código.
 
-## UML
-
-![uml](uml.jpeg)
-
 ## CASOS DE USO SELECCIONADOS
 
 * Caso de uso 2: Registrar Comensales
 * Revisar historial pedido
+
+## CONSTRUCCION
+
+* Domino
+Se generan las clases: comensal.js, listacomensal.js, pedido.js y listapedido.js.
+
+* Interfaz
+Se generan los archivos: index.html, comensales.htm e historial.html. No se utiliza un archivo .css ya que los estilos se aplican directamente en el html por medio del uso de la libreria Bootstrap. En main.js se encuentra el código JavaScript que se encarga de la interacción con el usuario.
+
+## UML
+
+![uml](uml.jpeg)
+
+## INTEFAZ DE USUARIO
+Se respetan las heuristicas de usabilidad de Nielsen. Son una serie de reglas o pautas escritas por Jakob Nielsen en
+la década del noventa, que se enfocan en evaluar el diseño de la interfaz de usuario. Por ejemplo con el uso de breadcrumbs para favorecer el reconocimiento ante la memorización. Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante.
+
+## CODIFICAION
+Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.

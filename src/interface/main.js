@@ -76,7 +76,7 @@ listaPedido.addPedido(pedido10);
           const nuevoComensal = new Comensal(nombre, apellido, edad, colegio, dieta);
           console.log(nuevoComensal);
           listaComensal.addComensal(nuevoComensal);
-          localStorage.setItem('listaComensal', JSON.stringify(listaComensal.getListaComensal()));
+          localStorage.setItem('listaComensal', JSON.stringify(listaComensal.getComensal()));
           console.log(listaComensal);
           event.target.reset();
         });
