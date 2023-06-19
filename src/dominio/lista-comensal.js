@@ -16,7 +16,7 @@ export class ListaComensal {
   }
 
   getListaComensal() {
-    return this.#comensal;
+    return this.#Listacomensal;
   }
 
 }
