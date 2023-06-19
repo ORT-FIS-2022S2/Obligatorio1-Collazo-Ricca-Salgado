@@ -14,14 +14,6 @@ export class Comensal {
       this.setDieta(unaDieta);
     }
 
-    // constructor() {
-    //     this.setNombre("");
-    //     this.setApellido("");
-    //     this.setEdad(0);
-    //     this.setColegio("");
-    //     this.setDieta("");
-    // }
-
   getNombre() {
     return this.#nombre;
   }
