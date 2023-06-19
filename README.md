@@ -648,10 +648,12 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 
 ## CONSTRUCCION
 
-* Domino
+* **Dominio**
+* &nbsp;
 Se generan las clases: comensal.js, listacomensal.js, pedido.js y listapedido.js.
 
-* Interfaz
+* **Interfaz**
+* &nbsp;
 Se generan los archivos: index.html, comensales.htm e historial.html. No se utiliza un archivo .css ya que los estilos se aplican directamente en el html por medio del uso de la libreria Bootstrap. En main.js se encuentra el código JavaScript que se encarga de la interacción con el usuario.
 
 ## UML
@@ -659,11 +661,14 @@ Se generan los archivos: index.html, comensales.htm e historial.html. No se util
 ![uml](uml.jpeg)
 
 ## INTERFAZ DE USUARIO
+
 Se respetan las heuristicas de usabilidad de Nielsen. Son una serie de reglas o pautas escritas por Jakob Nielsen en
 la década del noventa, que se enfocan en evaluar el diseño de la interfaz de usuario. Por ejemplo con el uso de breadcrumbs para favorecer el reconocimiento ante la memorización. Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante.
 
 ## CODIFICACION
+
 Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.
+También se utilizo la extensión WAVE Evaluation Tool para verificar la accesibilidad de la pagina.
 
 ## TESTS UNITARIOS
 
