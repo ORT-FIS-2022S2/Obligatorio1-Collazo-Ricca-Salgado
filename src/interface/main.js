@@ -1,7 +1,7 @@
 import { Comensal } from "../dominio/comensal.js";
-import { ListaComensal } from "../dominio/lista-comensal.js";
+import { ListaComensal } from "../dominio/lista_comensal.js";
 import { Pedido } from "../dominio/pedido.js";
-import { ListaPedido } from "../dominio/lista-pedido.js";
+import { ListaPedido } from "../dominio/lista_pedido.js";
 
 //DOMContentLoaded es un evento que se dispara cuando el documento HTML ha sido completamente cargado y parseado.
 document.addEventListener('DOMContentLoaded', () => { 

@@ -1,5 +1,5 @@
 import { Comensal } from "../comensal";
-import { ListaComensal } from "../lista-comensal";
+import { ListaComensal } from "../lista_comensal";
 
 describe("Tests de ListaComensal", () => {
 
