@@ -654,7 +654,7 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 
 
 &nbsp;
-Se generan las clases: comensal.js, lista-comensal.js, pedido.js y lista-pedido.js.
+Se generan las clases: comensal.js, listaComensal.js, pedido.js y listaPedido.js.
 
 * **Interfaz**
 
