@@ -5,7 +5,7 @@ export class Pedido {
   #fecha;
   #comensal;
 
-  constructor(unDia,unDetalle,unaFecha,unComensal){
+  Constructor(unDia,unDetalle,unaFecha,unComensal){
     this.setDia(unDia);
     this.setDetalle(unDetalle);
     this.setFecha(unaFecha);

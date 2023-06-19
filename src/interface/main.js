@@ -1,35 +1,13 @@
 import { Comensal } from "../dominio/comensal.js";
-import { ListaComensal } from "../dominio/listacomensal.js";
+import { ListaComensal } from "../dominio/lista-comensal.js";
 import { Pedido } from "../dominio/pedido.js";
-import { ListaPedido } from "../dominio/listapedido.js";
+import { ListaPedido } from "../dominio/lista-pedido.js";
 
-
-document.addEventListener('DOMContentLoaded', () => { //DOMContentLoaded es un evento que se dispara cuando el documento HTML ha sido completamente cargado y parseado, sin esperar hojas de estilo, imágenes y subtramas para finalizar la carga.
+//DOMContentLoaded es un evento que se dispara cuando el documento HTML ha sido completamente cargado y parseado.
+document.addEventListener('DOMContentLoaded', () => { 
 
 const listaComensal = new ListaComensal();
 const listaPedido = new ListaPedido();
-
-// if (localStorage.getItem('listaComensal')) {
-//     const comensalesFromStorage = JSON.parse(localStorage.getItem('listaComensal'));
-//     console.log(comensalesFromStorage);
-//     comensalesFromStorage.forEach((comensal) => {
-//       const loadedComensal = new Comensal(comensal.nombre, comensal.apellido, comensal.edad, comensal.colegio, comensal.dieta);
-//       console.log(loadedComensal);
-//       listaComensal.addComensal(loadedComensal);
-//       console.log(listaComensal);
-//     });
-//   }
-
-//   if (localStorage.getItem('listaPedido')) {
-//     const pedidosFromStorage = JSON.parse(localStorage.getItem('listaPedido'));
-//     console.log(pedidosFromStorage);
-//     pedidosFromStorage.forEach((pedido) => {
-//       const loadedPedido = new Pedido(pedido.nombre, pedido.apellido, pedido.edad, pedido.colegio, pedido.dieta);
-//       console.log(loadedPedido);
-//       listaPedido.addPedido(loadedPedido);
-//       console.log(listaPedido);
-//     });
-//   }
 
 let comensal1 = new Comensal("Santiago", "Molinari", 14, "Jose Pedro Varela", "Ninguna");
 let comensal2 = new Comensal("Agustina", "Molinari", 12, "Jose Pedro Varela", "Ninguna");
@@ -59,19 +37,22 @@ listaPedido.addPedido(pedido8);
 listaPedido.addPedido(pedido9);
 listaPedido.addPedido(pedido10);
 
-    if (document.querySelector('#agregar-comensal')) { //se agrega funcionalidad al boton agregar comensal
+//se agrega funcionalidad al boton agregar comensal
+    if (document.querySelector('#agregar-comensal')) { 
         document.querySelector('#agregar-comensal').addEventListener('click', () => {
           window.location.href = './comensales.html';
         });
       }
 
-    if (document.querySelector('#historial-pedidos')) { //se agrega funcionalidad al boton historial pedido
+//se agrega funcionalidad al boton historial pedido
+    if (document.querySelector('#historial-pedidos')) { 
         document.querySelector('#historial-pedidos').addEventListener('click', () => {
           window.location.href = './historial.html';
         });
       }
 
-    if (document.querySelector('#form-agregar-comensal')) {//se agrega funcionalidad al boton agregar comensal
+//se agrega funcionalidad al boton agregar comensal
+    if (document.querySelector('#form-agregar-comensal')) {
         document.querySelector('#form-agregar-comensal').addEventListener('submit', (event) => {
             event.preventDefault();
             try {
@@ -89,7 +70,6 @@ listaPedido.addPedido(pedido10);
                 }
                 console.log(nuevoComensal);
                 listaComensal.addComensal(nuevoComensal);
-                //localStorage.setItem('listaComensal', JSON.stringify(listaComensal.getListaComensal()));
                 console.log(listaComensal);
                 event.target.reset();
             } catch (error) {
@@ -99,11 +79,11 @@ listaPedido.addPedido(pedido10);
         });
     }
     
-    
     let formMes = document.getElementById('mes-option');
     let formComensal = document.getElementById('comensal-option');
     if(formMes && formComensal) {
-    formMes.addEventListener('change', function() {//se agrega funcionalidad cuando se selecciona mes y comensal a hist. ped.
+    //se agrega funcionalidad cuando se selecciona mes y comensal a hist. ped.
+    formMes.addEventListener('change', function() {
         formComensal.innerHTML = '';
         let mesSeleccionado = formMes.selectedIndex + 1;
         let listaPed = listaPedido.getListaPedido();
@@ -144,7 +124,6 @@ listaPedido.addPedido(pedido10);
                 option.value =  comensal.toString();
                 comensalesSinRepetir.push(comensal);
                 formComensal.add(option);
-                //localStorage.setItem('listaPedido', JSON.stringify(listaPedido.getListaPedido()));
             }
             
         });
@@ -224,7 +203,6 @@ listaPedido.addPedido(pedido10);
         }
         return false;
     }
-
 
     function limpiarCamposHist(){
         document.getElementById("detalle-menu-lunes").innerHTML = "";
