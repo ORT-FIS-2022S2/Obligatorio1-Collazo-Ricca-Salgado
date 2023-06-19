@@ -161,14 +161,14 @@ comida.
 
 #### Lluvia de ideas 
 A raíz de las entrevistas y luego de discutir el alcance de la aplicación decidimos hacer una lluvia de ideas para ver que funcionalidades debería tener la app.
-    •	Visualización del menú semanal con anticipación para los padres y los estudiantes.
-    •	Plataforma de intercambio entre los padres y los encargados del comedor para dar retroalimentación sobre los alimentos y comunicar restricciones dietarías.
-    •	Funcionalidad para que los padres puedan enviar sus comentarios y sugerencias sobre el menú de la semana y los alimentos servidos en el comedor.
-    •	Notificaciones sobre posibles cambios en el menú semanal o cancelaciones del servicio de comedor.
-    •	Sistema de registro para informar sobre restricciones dietarías de los estudiantes.
-    •	Información nutricional sobre los alimentos servidos en el comedor.
-    •	Posibilidad de solicitar viandas especiales para estudiantes con restricciones dietarías.
-    •	Espacio para que los estudiantes puedan compartir sus opiniones sobre los alimentos servidos en el comedor y dar retroalimentación.
+* Visualización del menú semanal con anticipación para los padres y los estudiantes.
+* Plataforma de intercambio entre los padres y los encargados del comedor para dar retroalimentación sobre los alimentos y comunicar restricciones dietarías.
+* Funcionalidad para que los padres puedan enviar sus comentarios y sugerencias sobre el menú de la semana y los alimentos servidos en el comedor.
+* Notificaciones sobre posibles cambios en el menú semanal o cancelaciones del servicio de comedor.
+* Sistema de registro para informar sobre restricciones dietarías de los estudiantes.
+* Información nutricional sobre los alimentos servidos en el comedor.
+* Posibilidad de solicitar viandas especiales para estudiantes con restricciones dietarías.
+* Espacio para que los estudiantes puedan compartir sus opiniones sobre los alimentos servidos en el comedor y dar retroalimentación.
 
 
 ### Referencias a fuentes de información
@@ -620,8 +620,77 @@ Yo estuve a cargo de los User Stories, los Cases detallados, la verificación y 
 Aprendimos a utilizar Figma, Git y Github, herramientas que no conociamos y nos resultaron muy útiles para el desarrollo del proyecto. Dentro de la elaboración del readme aprendimos sobre la utilización de Markdown.
 También utilizamos herramientas como Uxpressia y Draw.io para la elaboración de los user personas y el diagrama de modelo conceptual.
 
+# FUNDAMENTOS DE INGENIERIA DE SOFTWARE - OBLIGATORIO 2
+
+## ESTILOS PREDEFINIDOS POR EL EQUIPO
+
+### JavaScript
+
+* Los nombres de los archivos deben estar todos en minúscula y pueden contener guiones bajos.
+* Los comentarios deben estar en una unica linea y deben estar alineados con el codigo.
+* Se debe utilizar camelCase para los nombres de las funciones y las variables.
+* Se debe utilizar PascalCase para los nombres de los constructores y las clases.
+* Se debe utilizar mayúsculas para las constantes.
+* El máximo de caracteres por línea es de 80.
+* La indentación debe ser de 2 espacios.
+* Se debe dejar una línea en blanco entre los bloques de código.
+
+### HTML
+
+* Los nombres de los elementos de atributos deben estar en minúscula.
+* No se debe utilizar JavaScript dentro del HTML, se debe importar.
+* El máximo de caracteres por línea es de 80.
+* La indentación debe ser de 2 espacios.
+* Se debe dejar una línea en blanco entre los bloques de código.
+
+## CASOS DE USO SELECCIONADOS
+
+* Caso de uso 2: Registrar Comensales
+* Revisar historial pedido
+
+## CONSTRUCCION
+
+* **Dominio**
 
 
+&nbsp;
+Se generan las clases: comensal.js, lista-comensal.js, pedido.js y lista-pedido.js.
+
+* **Interfaz**
 
 
+&nbsp;
+Se generan los archivos: index.html, comensales.htm e historial.html. No se utiliza un archivo .css ya que los estilos se aplican directamente en el html por medio del uso de la libreria Bootstrap. En main.js se encuentra el código JavaScript que se encarga de la interacción con el usuario.
 
+## UML
+
+![uml](uml.jpeg)
+
+## INTERFAZ DE USUARIO
+
+Se respetan las heuristicas de usabilidad de Nielsen. Son una serie de reglas o pautas escritas por Jakob Nielsen en
+la década del noventa, que se enfocan en evaluar el diseño de la interfaz de usuario. Por ejemplo con el uso de breadcrumbs para favorecer el reconocimiento ante la memorización. Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante.
+
+## CODIFICACION
+
+Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.
+
+
+&nbsp;
+También se utilizo la extensión WAVE Evaluation Tool para verificar la accesibilidad de la pagina.
+
+## TESTS UNITARIOS
+
+Para realizar las pruebas unitarias utilizamos el marco de prueba Jest, para ello descargamos el paquete de Babel para permitir el soporte de ECMAScript, para ello utilizamos el comando "npm install --save-dev @babel/register @babel/preset-env" y creamos un archivo de configuración .babelrc
+
+
+&nbsp;
+Los tests unitarios se encuentran en la carpeta "tests" y se ejecutan con el comando "npm run test" y consisten de 2 tipos de pruebas, las pruebas de validez donde se determina si los datos ingresados son válidos y las pruebas donde se determina si los datos ingresados son consistentes con los datos de la base de datos. Por ejemplo si lo genero un comensal con el nombre Mario, el test unitario correspondiente verifica que en el campo "nombre" del comensal se encuentre el nombre Mario. Luego hay una prueba de la funcion toString que verifica que se imprima correctamente el comensal con el formato nombre + apellido.
+
+
+&nbsp;
+Al correr el comando npm run test se ejecutan los tests unitarios y se obtiene el siguiente resultado:
+
+
+&nbsp;
+![tests](passedTests.jpg)

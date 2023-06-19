@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "proyecto-lcmcr",
+  "version": "1.0.0",
+  "description": "**Estudiantes:** * Laura Collazo - 252803 * Mario Ricca - 212393 * Gaston Salgado - 212387",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/register": "^7.22.5",
+    "jest": "^29.5.0"
+  }
+}
