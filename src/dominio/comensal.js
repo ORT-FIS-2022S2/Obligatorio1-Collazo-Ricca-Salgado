@@ -7,9 +7,6 @@ export class Comensal {
   #dieta;
 
   constructor(unNombre,unApellido,unaEdad,unColegio,unaDieta){
-      if (unNombre === "" || unApellido === "" || unaEdad === "" || unColegio === "" || unaDieta === "") {
-        throw new Error("Todos los campos deben ser llenados");
-      }
       this.setNombre(unNombre);
       this.setApellido(unApellido);
       this.setEdad(unaEdad);
