@@ -34,7 +34,7 @@
 
 | **Fecha** | **Tester** | **Misión** | **Duración** | **Notas** |
 | :-------: | :--------: | :--------: | :----------: | :-------: |
-| 20/06/2023 | Collazo | Corroborar el correcto funcionamiento de la página. | 30 min | Se encontró un defecto bloqueante. |
+| 20/06/2023 | Collazo | Corroborar el correcto funcionamiento de la página. | 30 min | Se encontró un defecto bloqueante, sección perfil sin funcionalidad. |
 
 ## EVALUACIÓN GLOBAL DE LA CALIDAD
 No se encontro especificación por parte del equipo respecto a las guias de estilo y diseño, por lo que nos basamos en las reglas de Google Style Guide para la evaluación de la calidad del código.
