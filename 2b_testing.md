@@ -30,7 +30,7 @@
 | :---------: | :-----------: |
 | TC_1010 | B |
 
-# SESIONES DE PRUEBA EXPLORATORIA
+## SESIONES DE PRUEBA EXPLORATORIA
 
 | **Fecha** | **Tester** | **Misión** | **Duración** | **Notas** |
 | :-------: | :--------: | :--------: | :----------: | :-------: |
@@ -38,15 +38,15 @@
 | 26/06/2023 | Salgado | Corroborar la que la sintaxis y la ortografía sea correcta | 20 min | Se encontraron algunas faltas de tildes pero nada grave |
 
 ## INFORME DE CALIDAD DEL SISTEMA
-El menú de la aplicación presenta un problema estético menor que requiere atención. Aunque la funcionalidad y la usabilidad del menú son satisfactorias, su apariencia visual no resulta atractiva. Severidad: Menor.
+* El menú de la aplicación presenta un problema estético menor que requiere atención. Aunque la funcionalidad y la usabilidad del menú son satisfactorias, su apariencia visual no resulta atractiva. Severidad: Menor.
 
 
 &nbsp;
-Se recomienda el uso de breadcrumbs para facilitar la navegación de ida y vuelta a través de la aplicación. Severidad: Menor.
+* Se recomienda el uso de breadcrumbs para facilitar la navegación de ida y vuelta a través de la aplicación. Severidad: Menor.
 
 
 &nbsp;
-Se recomienda el uso de alternative text como atributo de las imagenes para poder acceder a una descripción de la imagen en caso de que no esté disponible. Severidad: Menor.
+* Se recomienda el uso de alternative text como atributo de las imagenes para poder acceder a una descripción de la imagen en caso de que no esté disponible. Severidad: Menor.
 
 
 &nbsp;
