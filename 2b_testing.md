@@ -35,8 +35,9 @@
 | **Fecha** | **Tester** | **Misión** | **Duración** | **Notas** |
 | :-------: | :--------: | :--------: | :----------: | :-------: |
 | 20/06/2023 | Collazo | Corroborar el correcto funcionamiento de la página. | 30 min | Se encontró un defecto bloqueante, sección perfil sin funcionalidad. |
+| 26/06/2023 | Salgado | Corroborar la que la sintaxis y la ortografía sea correcta | 20 min | Se encontraron algunas faltas de tildes pero nada grave |
 
-## EVALUACIÓN GLOBAL DE LA CALIDAD
+## INFORME DE CALIDAD DEL SISTEMA
 El menú de la aplicación presenta un problema estético menor que requiere atención. Aunque la funcionalidad y la usabilidad del menú son satisfactorias, su apariencia visual no resulta atractiva. Severidad: Menor.
 
 
