@@ -35,6 +35,7 @@
 | **Fecha** | **Tester** | **Misión** | **Duración** | **Notas** |
 | :-------: | :--------: | :--------: | :----------: | :-------: |
 | 20/06/2023 | Collazo | Corroborar el correcto funcionamiento de la página. | 30 min | Se encontró un defecto bloqueante, sección perfil sin funcionalidad. |
+| 26/06/2023 | Salgado | Corroborar la que la sintaxis y la ortografía sea correcta | 20 min | Se encontraron algunas faltas de tildes pero nada grave |
 
 ## EVALUACIÓN GLOBAL DE LA CALIDAD
 No se encontro especificación por parte del equipo respecto a las guias de estilo y diseño, por lo que nos basamos en las reglas de Google Style Guide para la evaluación de la calidad del código.
@@ -43,7 +44,7 @@ No se encontro especificación por parte del equipo respecto a las guias de esti
 &nbsp;
 ### JavaScript
 1. Los nombres de los archivos deberian ser todos en minuscula y separados por guiones bajos. Se encuentran definidos con PascalCase.
-2. 
+2. Algunas variables del main no tienen el nombre apropiado y gracias a eso no se entiende que contienen, por ejemplo la variable "ul".
 
 
 &nbsp;
