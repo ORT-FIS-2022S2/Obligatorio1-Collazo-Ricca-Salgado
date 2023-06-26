@@ -622,9 +622,73 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 
 # FUNDAMENTOS DE INGENIERIA DE SOFTWARE - OBLIGATORIO 2
 
-## ESTILOS PREDEFINIDOS POR EL EQUIPO
+## CONSTRUCCION
 
-### JavaScript
+* **Funcionalidad**
+En esta parte del obligatorio implementamos las funcionalidades de "Agregar comensal" y ver "Historial de Pedido".
+
+
+&nbsp;
+Agregar comensal: permite el ingreso de nuevos comensales que van a ser gestionados en la aplicación. Para ello se solicita el ingreso de nombre, apellido, edad, colegio y dieta especial.
+
+
+&nbsp;
+Historial de pedido: para un mes y un comensal seleccionado, muestra la cantidad de pedidos que realizaron cada dia de la semana con su respectivo detalle.
+
+
+&nbsp;
+Para eso creamos 4 clases para facilitar estas funciones:
+* comensal.js
+* lista-comensal.js
+* pedido.js
+* lista-pedido.js
+
+## UML
+
+![uml](uml.jpeg)
+
+
+## INTERFAZ DE USUARIO
+
+Se respetan las heuristicas de usabilidad de Nielsen. Serie de reglas o pautas escritas por Jakob Nielsen en
+la década del noventa, que se enfocan en evaluar el diseño de la interfaz de usuario. Por ejemplo con el uso de breadcrumbs para favorecer el reconocimiento ante la memorización. 
+
+
+&nbsp;
+Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante. La aplicación utiliza el marco de diseño Bootstrap, tema danger, para asegurar la coherencia visual entre las diferentes secciones y manteniendo la gama de colores de la UI definida. 
+
+
+### CODIFICACION
+
+Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.
+
+### BUENAS PRACTICAS DE PROGRAMACION (OOP)
+
+Se separo el código fuente en dominio e interfaz con el olbjetivo de tener un código que más facil de mantener, al estar la lógica separada de la interfaz.
+
+
+&nbsp;
+Dentro de la carpeta src se estructuro el códgio en las carpetas:
+
+* **Dominio**
+
+
+&nbsp;
+Donde se incluyeron las clases: comensal.js, lista_comensal.js, pedido.js y lista_pedido.js. Se agrego dentro de la misma la carpeta test, con todos los archivos asociados a las pruebas unitarias realizadas: comensal.test.js, lista_comensal.est.js y pedido.test.js.
+
+* **Interfaz**
+
+
+&nbsp;
+Se generan los archivos: index.html, comensales.html e historial.html. No se utiliza un archivo .css ya que los estilos se aplican directamente en el html por medio del uso de la libreria Bootstrap. En main.js se encuentra el código JavaScript que se encarga de la interacción con el usuario.
+
+
+&nbsp;
+También se utilizo la extensión WAVE Evaluation Tool para verificar la accesibilidad de la pagina.
+
+### ESTILOS PREDEFINIDOS POR EL EQUIPO
+
+#### JavaScript
 
 * Los nombres de los archivos deben estar todos en minúscula y pueden contener guiones bajos.
 * Los comentarios deben estar en una unica linea y deben estar alineados con el codigo.
@@ -635,49 +699,13 @@ También utilizamos herramientas como Uxpressia y Draw.io para la elaboración d
 * La indentación debe ser de 2 espacios.
 * Se debe dejar una línea en blanco entre los bloques de código.
 
-### HTML
+#### HTML
 
 * Los nombres de los elementos de atributos deben estar en minúscula.
 * No se debe utilizar JavaScript dentro del HTML, se debe importar.
 * El máximo de caracteres por línea es de 80.
 * La indentación debe ser de 2 espacios.
 * Se debe dejar una línea en blanco entre los bloques de código.
-
-## CASOS DE USO SELECCIONADOS
-
-* Caso de uso 2: Registrar Comensales
-* Revisar historial pedido
-
-## CONSTRUCCION
-
-* **Dominio**
-
-
-&nbsp;
-Se generan las clases: comensal.js, listaComensal.js, pedido.js y listaPedido.js.
-
-* **Interfaz**
-
-
-&nbsp;
-Se generan los archivos: index.html, comensales.htm e historial.html. No se utiliza un archivo .css ya que los estilos se aplican directamente en el html por medio del uso de la libreria Bootstrap. En main.js se encuentra el código JavaScript que se encarga de la interacción con el usuario.
-
-## UML
-
-![uml](uml.jpeg)
-
-## INTERFAZ DE USUARIO
-
-Se respetan las heuristicas de usabilidad de Nielsen. Son una serie de reglas o pautas escritas por Jakob Nielsen en
-la década del noventa, que se enfocan en evaluar el diseño de la interfaz de usuario. Por ejemplo con el uso de breadcrumbs para favorecer el reconocimiento ante la memorización. Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante.
-
-## CODIFICACION
-
-Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.
-
-
-&nbsp;
-También se utilizo la extensión WAVE Evaluation Tool para verificar la accesibilidad de la pagina.
 
 ## TESTS UNITARIOS
 
@@ -694,3 +722,10 @@ Al correr el comando npm run test se ejecutan los tests unitarios y se obtiene e
 
 &nbsp;
 ![tests](passedTests.jpg)
+
+## TESTS DE SISTEMA
+Dentro del archivo "2b_testing.md" detallamos los test de sistema realizados al equipo: Caggianese-Ripoll-Rodriguez.
+
+
+&nbsp;
+https://github.com/ORT-FIS-2022S2/Obligatorio1-Collazo-Ricca-Salgado/blob/main/2b_testing.md
