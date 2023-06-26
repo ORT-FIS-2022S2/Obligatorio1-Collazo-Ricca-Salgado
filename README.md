@@ -658,7 +658,7 @@ la década del noventa, que se enfocan en evaluar el diseño de la interfaz de u
 Se intento mantener una estética simple y minimalista, para no distraer al usuario de lo que es realmente importante. La aplicación utiliza el marco de diseño Bootstrap, tema danger, para asegurar la coherencia visual entre las diferentes secciones y manteniendo la gama de colores de la UI definida. 
 
 
-### CODIFICACION
+## CODIFICACION
 
 Para la codificacion se utilizo el IDE Visual Studio Code, ayudandonos de las extensiones de Prettier y ESLint para mantener un codigo limpio y ordenado, y Live Server para poder visualizar los cambios en tiempo real.
 
@@ -687,6 +687,8 @@ Se generan los archivos: index.html, comensales.html e historial.html. No se uti
 También se utilizo la extensión WAVE Evaluation Tool para verificar la accesibilidad de la pagina.
 
 ### ESTILOS PREDEFINIDOS POR EL EQUIPO
+
+Para mantener un código estructurado y legible, nos definimos un estándar de codificación del estilo basado en Google Style Guide para HTML, CSS y JavaScript. 
 
 #### JavaScript
 
